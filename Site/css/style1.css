@@ -35,7 +35,7 @@ body
     background-color: #ddd2d2;
     margin: auto;
     font-size: 15px;
-    height: 1350px;
+    height: 1400px;
     width: 1250px;
     
     
@@ -81,6 +81,8 @@ a:visited {
     color:#3a5bc7;
     transform: translateZ(0);
     }
+
+
 p0 
 {
     text-align: center;
@@ -93,7 +95,8 @@ p0
 
 p1
  {
-
+    font-family: "Trebuchet MS" ,Bold;
+    font-size: 16px;
  }
 
 p2
@@ -130,3 +133,18 @@ h3
     font-size: 25px;
 }
 
+img:hover {
+    filter: drop-shadow(5px 10px 10px black);
+    }
+
+.Choice1:hover{
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.Choice2:hover{
+    filter: drop-shadow(5px 10px 10px black);
+}
+.Menu:hover{
+    filter: drop-shadow(5px 10px 10px black);
+    transform: rotateX(350deg);
+}

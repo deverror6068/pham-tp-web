@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <title>Les choix de votre vie</title>
-    <link rel="icon" href="C:/Users/canel/Documents/Ynov/Html/Site/images/help.ico" />
+    <link rel="icon" href="../Site/images/help.ico" />
 </head>
         
     
@@ -14,18 +14,18 @@
         <div class="Main"> 
             <div class="Menu">
                 <br>
-            <a href="../Site/index.html" style="text-decoration: none";><p0> Acceuil</p0> </a>  
+            <a href="../Site/index.html" style="text-decoration: none";><p1> Acceuil</p1> </a>  
                 <br>
                 <br>
             <a href="../Site/start.html" style= "text-decoration: none";> <p1> Chapitre 1</p1></a>
                 <br>
                 <br>
-                <a href="../Site/start.html" style= "text-decoration: none";>  <p2> A propos</p2></a>
+            <a href="../Site/start.html" style= "text-decoration: none";>  <p1> A propos</p1></a>
             </div>
         <h1> La drogue c'est mal </h1>
         <h2> Chapitre 1</h2>
         <h3>Dans un Squat (chez vous)</h3>
- 
+            
         <pre>
      
         <div class ="Prolog">
@@ -42,9 +42,27 @@
             
 
         <br>
-        <a href="https://creativecommons.org/licenses/by/2.0/"  ><img src="images/coke.jpg" alt="On dirait que tout votre argent passe dans la poudre ..." height="350px" weight="350px", title=" Photo: Junkie man making lines of cocaine white powder for snorting  by Marco Verch under  Creative Commons 2.0" onclick="alert( '⚠️Vous allez etre dirigé vers une page extérieure au site')""></a>
+        <a href=""  ><img src="images/coke.jpg" alt="On dirait que tout votre argent passe dans la poudre ..." height="350px" weight="350px", title=" Photo: Junkie man making lines of cocaine white powder for snorting  by Marco Verch under  Creative Commons 2.0" onclick="function confirmation ()
+            {
+                var answer=confirm('⚠️Vous allez etre dirigé vers une page extérieure au sitedans un nouveau onglet, voulez vous continuer ?');
+                if (answer==true)
+                {
+                    window.open('https://creativecommons.org/licenses/by/2.0/')
+                }
+                else
+                {
+                    location.reload()
+                } 
+                
+            }
+            confirmation()"></a>
         <alt>On dirait que tout votre argent passe dans la poudre ...</alt>
-        
+
+            <div class="return">
+              <a href="../Site/index.html" style="text-decoration: none;">
+         <alt>Choix précèdent</alt>
+            <img  src="../Site/images/home.png" height="50px" weight="50px", title="Revenir au précèdent choix ">    
+                </div></a>
     </div>
     </pre>
     

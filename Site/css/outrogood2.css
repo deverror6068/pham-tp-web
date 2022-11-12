@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("../images/dawn.jpg")  ;
+    background-image: url("../images/curecenter.jpg")  ;
     background-color:linear-gradient( white,cyan);
     background-size: cover;
     
@@ -14,7 +14,7 @@ body
 
 .Menu
 {
-    border: 5px solid rgb(164, 191, 226);
+    border: 5px solid rgba(164, 191, 226, 0.7);
     border-radius: 10px;
     backdrop-filter: blur(2px);
     font-size: 15px;
@@ -31,52 +31,30 @@ body
 
 
 .main  {
-    border: 5px solid rgb(164, 191, 226);
+    border: 5px solid rgba(128, 185, 214, 0.7);
     border-radius: 10px;
-  
+    background-color:rgba(175, 170, 170, 0.5);
     margin: auto;
     font-size: 15px;
     height: 1350px;
     width: 1250px;
-    backdrop-filter: blur(5px);
+  
     
     
 }
 .prolog  {
     border-radius: 10px;
-    backdrop-filter: blur(5px);
     font-size: 15px;
     margin: auto;
     width: 925px;
     padding: 10px;
-
+    opacity: 0.9;
+    font-size: 16px;
    
 }
 
-.Choice1{
-    border: 5px solid rgb(207, 214, 218);
-    border-radius: 10px;
-    background-color: #c2bdbd;
-    font-size: 15px;
-    margin:auto;
-    width: 250px;
-    padding: 10px;
-    text-decoration: none;
-   
-}
 
-.Choice2{
-    border: 5px solid rgb(207, 214, 218);
-    border-radius: 10px;
-    background-color: #c2bdbd;
-    font-size: 15px;
-    margin: auto;
-    width: 250px;
-    padding: 10px;
-    text-decoration: none;
-   
-   
-}
+
 .return
 {
 
@@ -94,12 +72,13 @@ body
 a:visited {
     text-decoration: none;
     color:#3a5bc7;
+    transform: translateZ(0);
     }
 p0 
 {
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    overflow: auto;
+    font-family: Tahoma, Geneva, Kalimati, sans-serif;
+    
     
     
     
@@ -135,9 +114,4 @@ h3
     text-align: center;
     font-family: "Trebuchet MS" ,Bold;
     font-size: 25px;
-}
-
-.Menu:hover{
-    border: 5px solid rgb(164, 191, 226);
-    filter: drop-shadow(5px 3px 3px rgb(164, 191, 226));
 }

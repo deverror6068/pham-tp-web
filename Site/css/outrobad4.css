@@ -1,10 +1,10 @@
 body
 {
-    background-image: url("../images/street.jpg")  ;
-    background-color: rgb(128, 117, 117);
+    background-image: url("../images/madness.png")  ;
+    background-color: rgb(0, 0, 0);
     background-size: cover;
-
     text-align: center;
+    backdrop-filter: brightness(0);
 
     
     
@@ -36,7 +36,7 @@ body
     background-color: #ddd2d2;
     margin: auto;
     font-size: 15px;
-    height: 1550px;
+    height: 1460px;
     width: 1250px;
     
     
@@ -48,6 +48,7 @@ body
     font-size: 15px;
     margin: auto;
     width: 925px;
+    height: 1020px;
     padding: 10px;
    
 }
@@ -58,7 +59,7 @@ body
     background-color: #c2bdbd;
     font-size: 15px;
     margin:auto;
-    width: 250px;
+    width: 350px;
     padding: 10px;
     text-decoration: none;
    
@@ -70,23 +71,8 @@ body
     background-color: #c2bdbd;
     font-size: 15px;
     margin: auto;
-    width: 250px;
+    width: 350px;
     padding: 10px;
-    text-decoration: none;
-   
-   
-}
-
-.return
-{
-
-    
-    font-size: 15px;
-    margin: auto;
-    height: 75px;
-    align-items: center;
-    width: 250px;
-    padding: 1px;
     text-decoration: none;
    
    
@@ -94,14 +80,21 @@ body
 
 a:visited {
     text-decoration: none;
-    color:#526897;
+    color:#3a5bc7;
     transform: translateZ(0);
     }
+
+
+alt
+{
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
 p0 
 {
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    overflow: auto;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+
+    overflow:center
     
     
     
@@ -115,6 +108,7 @@ p1
 p2
  {
     text-decoration: none;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
  }
 
 
@@ -137,30 +131,4 @@ h3
     text-align: center;
     font-family: "Trebuchet MS" ,Bold;
     font-size: 25px;
-}
-
-
-img:hover {
-    filter: drop-shadow(5px 10px 10px black);
-    }
-
-.Menu:hover{
-    filter: drop-shadow(5px 10px 10px black);
-    transform: rotateX(350deg);
-}
-.return:hover{
-    filter: drop-shadow(5px 10px 10px black);
-    transform: rotateX(350deg);
-    
-}
-
-.Choice1:hover{
-    filter: drop-shadow(5px 10px 10px black);
-    transform: rotateX(350deg);
-}
-
-.Choice2:hover{
-    filter: drop-shadow(5px 10px 10px black);
-    transform: rotateX(350deg);
-    
 }
